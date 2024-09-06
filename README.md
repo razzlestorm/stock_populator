@@ -8,3 +8,7 @@ TODO:
 * Navigate from the Symbol link and Check average volume of stocks
 * check formula of EPS Forecast minus last year EPS
 * Do search for Ticket and Earnings Call site/link/time
+
+## To Run
+1. Run geckodriver.exe
+2. cargo run

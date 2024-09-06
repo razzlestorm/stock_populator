@@ -13,8 +13,8 @@ use url::Url;
 
 #[tokio::main]
 async fn main() -> WebDriverResult<()> {
-    let caps = DesiredCapabilities::chrome();
-    let driver = WebDriver::new("http://localhost:52281", caps).await?;
+    let caps = DesiredCapabilities::firefox();
+    let driver = WebDriver::new("http://localhost:4444", caps).await?;
 
     // check date and navigate to website 
     driver.goto("https://www.nasdaq.com/market-activity/earnings").await?;
